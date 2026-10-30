@@ -1,0 +1,50 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using TicketRush.Application.Auth.DTOS;
+
+namespace TicketRush.Api.Controllers
+{
+    [ApiController]
+    [Route("api/auth")]
+    public class AuthController : ControllerBase
+    {
+        [HttpPost("register")]
+        public Task<IActionResult> Register([FromBody] RegisterRequestDto request)
+        {
+            
+
+            return Ok("Register endpoint");
+        }
+
+        [HttpPost("login")]
+        public IActionResult Login([FromBody] LoginRequestDto request)
+        {
+            if (string.IsNullOrWhiteSpace(request.Email) ||
+                string.IsNullOrWhiteSpace(request.Password))
+            {
+                return BadRequest("Email and password are required.");
+            }
+
+            return Ok("Login endpoint");
+        }
+
+        [HttpPost("refresh-token")]
+        public IActionResult RefreshToken([FromBody] RefreshTokenRequestDto request)
+        {
+            if (string.IsNullOrWhiteSpace(request.RefreshToken))
+            {
+                return BadRequest("Refresh token is required.");
+            }
+
+            return Ok("Refresh token endpoint");
+        }
+
+        [HttpPost("logout")]
+        public IActionResult Logout()
+        {
+            return Ok("Logout endpoint");
+        }
+    }
+}   
+
+
+       

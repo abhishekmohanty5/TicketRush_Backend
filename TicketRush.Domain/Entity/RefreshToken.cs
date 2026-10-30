@@ -1,0 +1,44 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TicketRush.Domain.Entity
+{
+    public class RefreshToken
+    {
+        public int Id { get; private set; }
+        public int UserId { get; private set; }
+        public User User { get; private set; } = null!;
+        public string Token { get; private set; } = string.Empty;
+        public DateTime ExpiresAt { get; private set; }
+        public DateTime CreatedAt { get; private set; }
+        public DateTime? RevokedAt { get; private set; }
+
+        public bool IsActive => RevokedAt is null && ExpiresAt > DateTime.UtcNow;
+
+        private RefreshToken() { }
+
+        public RefreshToken(int userId, string token, DateTime expiresAt)
+        {
+            if (userId <= 0) throw new ArgumentException("UserId must be greater than zero.", nameof(userId));
+            if (string.IsNullOrWhiteSpace(token)) throw new ArgumentException("Token is required.", nameof(token));
+            if (expiresAt <= DateTime.UtcNow) throw new ArgumentException("Expiry must be in the future.", nameof(expiresAt));
+
+            UserId = userId;
+            Token = token;
+            ExpiresAt = expiresAt;
+            CreatedAt = DateTime.UtcNow;
+        }
+
+        public void Revoke()
+        {
+            if (RevokedAt is not null)
+            {
+                throw new InvalidOperationException("Token is already revoked.");
+            }
+            RevokedAt = DateTime.UtcNow;
+        }
+    }
+}

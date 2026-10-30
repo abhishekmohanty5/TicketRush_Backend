@@ -1,0 +1,10 @@
+﻿namespace TicketRush.Application.Common.DTOS
+{
+    public sealed class GlobalResponseDto<T>
+    {
+        public bool Success { get; set; }
+        public string Message { get; set; } = string.Empty;
+        public T? Data { get; set; }
+        public List<string> Errors { get; set; } = new();
+    }
+}

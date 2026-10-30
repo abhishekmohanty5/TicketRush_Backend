@@ -1,0 +1,110 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.Threading.Tasks;
+using TicketRush.Application.Auth.DTOS;
+using TicketRush.Application.Auth.Interfaces;
+using TicketRush.Application.User.DTOS;
+using TicketRush.Application.User.Interfaces;
+
+namespace TicketRush.Application.Auth.Implementions
+{
+    public class AuthService : IAuthService
+    {
+        private readonly IUserService _userService;
+        private readonly ITokenService _tokenService;
+
+        public AuthService(IUserService userService, ITokenService tokenService )
+        {
+            _userService = userService;
+            _tokenService = tokenService;
+        }
+
+        
+        public async Task<LoginResponseDto> LoginAsync(LoginRequestDto request)
+        {
+            
+             var user = await _userService.AuthenticateuserAsync(request.Email, request.Password);
+
+            var token = "GeneratedJWTToken"; // Replace
+            var refreshToken = "Generated";
+
+           return new LoginResponseDto
+           {
+               UserId = user.Id,
+               Name = user.Name,
+               Email = user.Email,
+               Role = user.Role,
+               AccessToken = token,
+               RefreshToken = refreshToken
+           };
+
+
+        }
+
+        public async Task<bool> LogoutAsync()
+        {
+            // we will get the user details or id from the context
+            // user Logout means we will invoke its Refresh token right 
+            var refreshToken = await _tokenService.GetActiveRefreshToken(1);
+            // Replace 1 with the actual user ID from context
+
+            if(refreshToken == null)
+            {
+                throw new InvalidOperationException("No active refresh token found for the user.");
+            }
+
+            if (await _tokenService.RevokeRefreshToken(refreshToken)) 
+            {
+                return true;
+            }
+            return false;
+
+
+        }
+
+        public async Task<RefreshTokenResponseDto> RefreshTokenAsync(RefreshTokenRequestDto request)
+        {
+            //verify the refresh token find out the user 
+            var user = await _tokenService.VerifyRefreshTokenAsync(request.RefreshToken);
+
+            var newAccessToken = await _tokenService.GenerateAccessToken(user.Id, user.Email, user.Role);
+            var newRefreshToken = await _tokenService.RotateRefreshToken(user.RefreshToken);
+
+            //generate new access token and refresh token and return it
+
+            return new RefreshTokenResponseDto
+            {
+                AccessToken = newAccessToken,
+                RefreshToken = newRefreshToken
+            };
+
+        }
+
+        public async Task<RegisterResponseDto> RegisterAsync(RegisterRequestDto request)
+        {
+            CreateUserDTO createUserDTO = new CreateUserDTO
+            {
+                Name = request.Name,
+                Email = request.Email,
+                Password = request.Password,
+                
+            };
+
+            var savedUser =await _userService.CreateUserAsync(createUserDTO);
+
+            return new RegisterResponseDto
+            {
+                UserId = savedUser.Id,
+                Name = savedUser.Name,
+                Email = savedUser.Email,
+                Role = savedUser.Role,
+                CreatedAt = savedUser.CreatedAt,
+                IsActive = savedUser.IsActive
+            };
+
+        }
+    }
+}

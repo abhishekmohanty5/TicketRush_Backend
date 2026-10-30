@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using TicketRush.Domain.Entity;
+
+namespace TicketRush.Application.Auth.Interfaces
+{
+    public interface IRefreshTokenService
+    {
+        public Task<string> GenerateRefreshToken(int userId);
+        public Task<RefreshToken>  ValidateRefreshToken(string refreshToken);
+        public Task<bool> RevokeRefreshToken(RefreshToken refreshToken);
+        public Task<string>  RotateRefreshToken(RefreshToken refreshToken);
+
+
+    }
+}

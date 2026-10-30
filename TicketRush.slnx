@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="TicketRush.Application/TicketRush.Application.csproj" />
+  <Project Path="TicketRush.Domain/TicketRush.Domain.csproj" />
+  <Project Path="TicketRush.Infrastructure/TicketRush.Infrastructure.csproj" />
+  <Project Path="TicketRush/TicketRush.Api.csproj" />
+</Solution>

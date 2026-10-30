@@ -1,0 +1,65 @@
+﻿using System.Security.Cryptography;
+using TicketRush.Application.Auth.Interfaces;
+using TicketRush.Domain.Entity;
+
+namespace TicketRush.Application.Auth.Implementions
+{
+    public class RefreshTokenService : IRefreshTokenService
+    {
+        private readonly IRefreshTokenRepository _refreshTokenRepository;
+
+        public RefreshTokenService(IRefreshTokenRepository refreshTokenRepository)
+        {
+            _refreshTokenRepository = refreshTokenRepository;
+        }
+
+        public async Task<string> GenerateRefreshToken(int userId)
+        {
+            var token = GenerateRandomToken();
+            var refreshToken = new RefreshToken(userId, token, DateTime.UtcNow.AddDays(7));
+
+            await _refreshTokenRepository.AddRefreshTokenAsync(refreshToken);
+            return token;
+        }
+
+        public async Task<bool> RevokeRefreshToken(string refreshToken)
+        {
+            var tokenEntity = await _refreshTokenRepository.GetRefreshTokenAsync(refreshToken)
+                ?? throw new InvalidOperationException("Refresh token not found.");
+
+            if (!tokenEntity.IsActive)
+            {
+                return false;
+            }
+
+            tokenEntity.Revoke();
+            return await _refreshTokenRepository.RevokeRefreshTokenAsync(tokenEntity);
+        }
+
+        public async Task<string> RotateRefreshToken(RefreshToken refreshToken)
+        {
+            refreshToken.Revoke();
+            await _refreshTokenRepository.RevokeRefreshTokenAsync(refreshToken);
+            return await GenerateRefreshToken(refreshToken.UserId);
+        }
+
+        public async Task<RefreshToken> ValidateRefreshToken(string refreshToken)
+        {
+            var tokenEntity = await _refreshTokenRepository.GetRefreshTokenAsync(refreshToken)
+                ?? throw new UnauthorizedAccessException("Invalid refresh token.");
+
+            if (!tokenEntity.IsActive)
+            {
+                throw new UnauthorizedAccessException("Refresh token is expired or revoked.");
+            }
+
+            return tokenEntity;
+        }
+
+        private static string GenerateRandomToken()
+        {
+            var randomBytes = RandomNumberGenerator.GetBytes(64);
+            return Convert.ToBase64String(randomBytes);
+        }
+    }
+}

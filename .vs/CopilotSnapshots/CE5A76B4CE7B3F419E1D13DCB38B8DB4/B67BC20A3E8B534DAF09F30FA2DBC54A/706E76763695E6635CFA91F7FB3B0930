@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using TicketRush.Application.Auth.Interfaces;
+
+
+namespace TicketRush.Application.Auth.Implementions
+{
+    public class HashingService : IHashingService
+    {
+        private readonly IPasswordHasher<string> _passwordHasher;
+
+        public HashingService(IPasswordHasher<string> passwordHasher)
+        {
+            _passwordHasher = passwordHasher;
+        }
+
+        public string HashPassword(string password)
+        {
+            return _passwordHasher.HashPassword(password);
+        }
+
+        public bool VerifyPassword(string password, string hashedPassword)
+        {
+            return _passwordHasher.VerifyHashedPassword(hashedPassword, password);
+        }
+    }
+}

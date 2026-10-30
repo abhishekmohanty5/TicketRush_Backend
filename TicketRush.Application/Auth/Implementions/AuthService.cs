@@ -1,0 +1,92 @@
+using System;
+using System.Threading.Tasks;
+using Microsoft.Extensions.Options;
+using TicketRush.Application.Auth.DTOS;
+using TicketRush.Application.Auth.Interfaces;
+using TicketRush.Application.Options;
+using TicketRush.Application.User.DTOS;
+using TicketRush.Application.User.Interfaces;
+
+namespace TicketRush.Application.Auth.Implementions
+{
+    public class AuthService : IAuthService
+    {
+        private readonly IUserService _userService;
+        private readonly IJwtService _jwtService;
+        private readonly IRefreshTokenService _refreshTokenService;
+        private readonly JwtOptions _jwtOptions;
+
+        public AuthService(
+            IUserService userService,
+            IJwtService jwtService,
+            IRefreshTokenService refreshTokenService,
+            IOptions<JwtOptions> jwtOptions)
+        {
+            _userService = userService;
+            _jwtService = jwtService;
+            _refreshTokenService = refreshTokenService;
+            _jwtOptions = jwtOptions.Value;
+        }
+
+        public async Task<LoginResponseDto> LoginAsync(LoginRequestDto request)
+        {
+            var user = await _userService.AuthenticateUserAsync(request.Email, request.Password);
+            var accessToken = _jwtService.GenerateAccessToken(user.Id, user.Email, user.Role);
+            var refreshToken = await _refreshTokenService.GenerateRefreshToken(user.Id);
+
+            return new LoginResponseDto
+            {
+                UserId = user.Id,
+                Name = user.Name,
+                Email = user.Email,
+                Role = user.Role,
+                AccessToken = accessToken,
+                RefreshToken = refreshToken,
+                ExpiresAtUtc = DateTime.UtcNow.AddMinutes(_jwtOptions.AccessTokenExpirationMinutes)
+            };
+        }
+
+        public Task<bool> LogoutAsync(RefreshTokenRequestDto request)
+        {
+            return _refreshTokenService.RevokeRefreshToken(request.RefreshToken);
+        }
+
+        public async Task<RefreshTokenResponseDto> RefreshTokenAsync(RefreshTokenRequestDto request)
+        {
+            var tokenEntity = await _refreshTokenService.ValidateRefreshToken(request.RefreshToken);
+            var user = await _userService.GetUserByIdAsync(tokenEntity.UserId);
+
+            var newAccessToken = _jwtService.GenerateAccessToken(user.Id, user.Email, user.Role);
+            var newRefreshToken = await _refreshTokenService.RotateRefreshToken(tokenEntity);
+
+            return new RefreshTokenResponseDto
+            {
+                AccessToken = newAccessToken,
+                RefreshToken = newRefreshToken,
+                ExpiresAtUtc = DateTime.UtcNow.AddMinutes(_jwtOptions.AccessTokenExpirationMinutes)
+            };
+        }
+
+        public async Task<RegisterResponseDto> RegisterAsync(RegisterRequestDto request)
+        {
+            CreateUserDTO createUserDTO = new()
+            {
+                Name = request.Name,
+                Email = request.Email,
+                Password = request.Password
+            };
+
+            var savedUser = await _userService.CreateUserAsync(createUserDTO);
+
+            return new RegisterResponseDto
+            {
+                UserId = savedUser.Id,
+                Name = savedUser.Name,
+                Email = savedUser.Email,
+                Role = savedUser.Role,
+                CreatedAt = savedUser.CreatedAt,
+                IsActive = savedUser.IsActive
+            };
+        }
+    }
+}

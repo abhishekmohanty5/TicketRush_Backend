@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using TicketRush.Domain.Entity;
+
+namespace TicketRush.Application.Auth.Interfaces
+{
+    public interface IRefreshTokenRepository
+    {
+        Task<RefreshToken?> GetRefreshTokenAsync(RefreshToken token);
+        Task<RefreshToken?> GetActiveRefreshTokenAsync(int userId);
+        Task<IEnumerable<RefreshToken>> GetAllRefreshTokensAsync(int userId);
+
+        Task AddRefreshTokenAsync(RefreshToken token);
+        Task<bool> RevokeRefreshTokenAsync(RefreshToken token);
+
+        Task<RefreshToken> GetRefreshTokenAsync(string token);
+
+    }
+}

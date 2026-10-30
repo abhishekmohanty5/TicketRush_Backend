@@ -1,0 +1,39 @@
+﻿using Microsoft.AspNetCore.Mvc;
+
+namespace TicketRush.Api.Controllers
+{
+    [Route("api/auth")]
+    public class AuthController:ControllerBase
+    {
+        
+        public AuthController()
+        {
+
+        }
+
+        [HttpPost("/register")]
+        public IActionResult Register()
+        {
+            return Ok("Register endpoint");
+        }
+
+        [HttpPost("/login")]
+        public IActionResult Login()
+        {
+            return Ok("Login endpoint");
+        }
+
+        [HttpPost("/refresh-token")]
+        public IActionResult RefreshToken()
+        {
+            return Ok("Refresh token endpoint");
+        }
+
+        [HttpPost("/logout")]
+        public IActionResult Logout()
+        {
+            return Ok("Logout endpoint");
+        }
+
+    }
+}

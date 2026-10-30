@@ -1,0 +1,752 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\CSharpPrograms\\TicketRush\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B6EF5955-67EE-19CB-C2DD-1EEA343A2216}|TicketRush.Infrastructure\\TicketRush.Infrastructure.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.infrastructure\\ticketrush.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B6EF5955-67EE-19CB-C2DD-1EEA343A2216}|TicketRush.Infrastructure\\TicketRush.Infrastructure.csproj|solutionrelative:ticketrush.infrastructure\\ticketrush.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.domain\\enums\\bookingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|solutionrelative:ticketrush.domain\\enums\\bookingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC6861C-CCF3-81A7-B2B0-DB734A6982CF}|TicketRush\\TicketRush.Api.csproj|c:\\csharpprograms\\ticketrush\\ticketrush\\ticketrush.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EFC6861C-CCF3-81A7-B2B0-DB734A6982CF}|TicketRush\\TicketRush.Api.csproj|solutionrelative:ticketrush\\ticketrush.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.application\\auth\\implementions\\refreshtokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|solutionrelative:ticketrush.application\\auth\\implementions\\refreshtokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.application\\auth\\implementions\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|solutionrelative:ticketrush.application\\auth\\implementions\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.application\\auth\\dtos\\refreshtokenrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|solutionrelative:ticketrush.application\\auth\\dtos\\refreshtokenrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC6861C-CCF3-81A7-B2B0-DB734A6982CF}|TicketRush\\TicketRush.Api.csproj|c:\\csharpprograms\\ticketrush\\ticketrush\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EFC6861C-CCF3-81A7-B2B0-DB734A6982CF}|TicketRush\\TicketRush.Api.csproj|solutionrelative:ticketrush\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC6861C-CCF3-81A7-B2B0-DB734A6982CF}|TicketRush\\TicketRush.Api.csproj|c:\\csharpprograms\\ticketrush\\ticketrush\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC6861C-CCF3-81A7-B2B0-DB734A6982CF}|TicketRush\\TicketRush.Api.csproj|solutionrelative:ticketrush\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC6861C-CCF3-81A7-B2B0-DB734A6982CF}|TicketRush\\TicketRush.Api.csproj|c:\\csharpprograms\\ticketrush\\ticketrush\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC6861C-CCF3-81A7-B2B0-DB734A6982CF}|TicketRush\\TicketRush.Api.csproj|solutionrelative:ticketrush\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.application\\common\\dtos\\globalresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|solutionrelative:ticketrush.application\\common\\dtos\\globalresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abhis\\AppData\\Roaming\\Microsoft\\UserSecrets\\TicketRush-Api-Dev-Secrets\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6846C4F4-2FE3-4824-9F32-9FF527BD7187}|TicketRush.Domain\\TicketRush.Domain.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.domain\\entity\\notifaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6846C4F4-2FE3-4824-9F32-9FF527BD7187}|TicketRush.Domain\\TicketRush.Domain.csproj|solutionrelative:ticketrush.domain\\entity\\notifaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\abhis\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-1860689899\\AuthResponseDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.application\\auth\\interfaces\\irefreshtokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|solutionrelative:ticketrush.application\\auth\\interfaces\\irefreshtokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.application\\auth\\interfaces\\irefreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|solutionrelative:ticketrush.application\\auth\\interfaces\\irefreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.domain\\entity\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|solutionrelative:ticketrush.domain\\entity\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.application\\auth\\implementions\\hashingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|solutionrelative:ticketrush.application\\auth\\implementions\\hashingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.application\\auth\\interfaces\\ihashingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|solutionrelative:ticketrush.application\\auth\\interfaces\\ihashingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.application\\auth\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|solutionrelative:ticketrush.application\\auth\\interfaces\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.application\\options\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|solutionrelative:ticketrush.application\\options\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6EF5955-67EE-19CB-C2DD-1EEA343A2216}|TicketRush.Infrastructure\\TicketRush.Infrastructure.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.infrastructure\\jwt\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6EF5955-67EE-19CB-C2DD-1EEA343A2216}|TicketRush.Infrastructure\\TicketRush.Infrastructure.csproj|solutionrelative:ticketrush.infrastructure\\jwt\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.application\\auth\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|solutionrelative:ticketrush.application\\auth\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.application\\auth\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|solutionrelative:ticketrush.application\\auth\\dtos\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.application\\user\\implementions\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|solutionrelative:ticketrush.application\\user\\implementions\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.application\\user\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|solutionrelative:ticketrush.application\\user\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.application\\user\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|solutionrelative:ticketrush.application\\user\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.application\\auth\\dtos\\registerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|solutionrelative:ticketrush.application\\auth\\dtos\\registerresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.application\\user\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|solutionrelative:ticketrush.application\\user\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.domain\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|solutionrelative:ticketrush.domain\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.application\\user\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|solutionrelative:ticketrush.application\\user\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.application\\auth\\dtos\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|solutionrelative:ticketrush.application\\auth\\dtos\\registerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.application\\ticketrush.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|solutionrelative:ticketrush.application\\ticketrush.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.application\\user\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|solutionrelative:ticketrush.application\\user\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.application\\auth\\dtos\\refreshtokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|solutionrelative:ticketrush.application\\auth\\dtos\\refreshtokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.application\\auth\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{207E1D66-CDCF-C0C5-720C-98F4FF5C744C}|TicketRush.Application\\TicketRush.Application.csproj|solutionrelative:ticketrush.application\\auth\\dtos\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.domain\\entity\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|solutionrelative:ticketrush.domain\\entity\\seat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.domain\\enums\\seattype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|solutionrelative:ticketrush.domain\\enums\\seattype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.domain\\entity\\show.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|solutionrelative:ticketrush.domain\\entity\\show.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.domain\\entity\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|solutionrelative:ticketrush.domain\\entity\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.domain\\entity\\screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|solutionrelative:ticketrush.domain\\entity\\screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.domain\\entity\\bookingseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|solutionrelative:ticketrush.domain\\entity\\bookingseat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.domain\\entity\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|solutionrelative:ticketrush.domain\\entity\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.domain\\entity\\theater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|solutionrelative:ticketrush.domain\\entity\\theater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|solutionrelative:ticketrush.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|c:\\csharpprograms\\ticketrush\\ticketrush.domain\\entity\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A96B010-86AB-24A9-A8BF-A51812BDD76F}|TicketRush.Domain\\TicketRush.Domain.csproj|solutionrelative:ticketrush.domain\\entity\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\Implementions\\AuthService.cs",
+              "RelativeDocumentMoniker": "TicketRush.Application\\Auth\\Implementions\\AuthService.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\Implementions\\AuthService.cs",
+              "RelativeToolTip": "TicketRush.Application\\Auth\\Implementions\\AuthService.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAuwDoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:23:09.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RefreshTokenService.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\Implementions\\RefreshTokenService.cs",
+              "RelativeDocumentMoniker": "TicketRush.Application\\Auth\\Implementions\\RefreshTokenService.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\Implementions\\RefreshTokenService.cs",
+              "RelativeToolTip": "TicketRush.Application\\Auth\\Implementions\\RefreshTokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T12:48:10.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TicketRush.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Infrastructure\\TicketRush.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "TicketRush.Infrastructure\\TicketRush.Infrastructure.csproj",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Infrastructure\\TicketRush.Infrastructure.csproj",
+              "RelativeToolTip": "TicketRush.Infrastructure\\TicketRush.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-25T10:01:43.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingStatus.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Enums\\BookingStatus.cs",
+              "RelativeDocumentMoniker": "TicketRush.Domain\\Enums\\BookingStatus.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Enums\\BookingStatus.cs",
+              "RelativeToolTip": "TicketRush.Domain\\Enums\\BookingStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T06:32:02.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RefreshTokenRequestDto.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\DTOS\\RefreshTokenRequestDto.cs",
+              "RelativeDocumentMoniker": "TicketRush.Application\\Auth\\DTOS\\RefreshTokenRequestDto.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\DTOS\\RefreshTokenRequestDto.cs",
+              "RelativeToolTip": "TicketRush.Application\\Auth\\DTOS\\RefreshTokenRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:05:14.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush\\appsettings.json",
+              "RelativeDocumentMoniker": "TicketRush\\appsettings.json",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush\\appsettings.json",
+              "RelativeToolTip": "TicketRush\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-25T11:22:19.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TicketRush.Api.csproj",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush\\TicketRush.Api.csproj",
+              "RelativeDocumentMoniker": "TicketRush\\TicketRush.Api.csproj",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush\\TicketRush.Api.csproj",
+              "RelativeToolTip": "TicketRush\\TicketRush.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-25T11:30:35.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush\\Program.cs",
+              "RelativeDocumentMoniker": "TicketRush\\Program.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush\\Program.cs",
+              "RelativeToolTip": "TicketRush\\Program.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:36:43.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "TicketRush\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "TicketRush\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwCoAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T08:53:08.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GlobalResponseDto.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Common\\DTOS\\GlobalResponseDto.cs",
+              "RelativeDocumentMoniker": "TicketRush.Application\\Common\\DTOS\\GlobalResponseDto.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Common\\DTOS\\GlobalResponseDto.cs",
+              "RelativeToolTip": "TicketRush.Application\\Common\\DTOS\\GlobalResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:18:19.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HashingService.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\Implementions\\HashingService.cs",
+              "RelativeDocumentMoniker": "TicketRush.Application\\Auth\\Implementions\\HashingService.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\Implementions\\HashingService.cs",
+              "RelativeToolTip": "TicketRush.Application\\Auth\\Implementions\\HashingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T12:35:32.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Entity\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "TicketRush.Domain\\Entity\\RefreshToken.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Entity\\RefreshToken.cs",
+              "RelativeToolTip": "TicketRush.Domain\\Entity\\RefreshToken.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wBYAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T05:50:31.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IRefreshTokenRepository.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\Interfaces\\IRefreshTokenRepository.cs",
+              "RelativeDocumentMoniker": "TicketRush.Application\\Auth\\Interfaces\\IRefreshTokenRepository.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\Interfaces\\IRefreshTokenRepository.cs",
+              "RelativeToolTip": "TicketRush.Application\\Auth\\Interfaces\\IRefreshTokenRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T10:54:18.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IRefreshTokenService.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\Interfaces\\IRefreshTokenService.cs",
+              "RelativeDocumentMoniker": "TicketRush.Application\\Auth\\Interfaces\\IRefreshTokenService.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\Interfaces\\IRefreshTokenService.cs",
+              "RelativeToolTip": "TicketRush.Application\\Auth\\Interfaces\\IRefreshTokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T12:45:43.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IHashingService.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\Interfaces\\IHashingService.cs",
+              "RelativeDocumentMoniker": "TicketRush.Application\\Auth\\Interfaces\\IHashingService.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\Interfaces\\IHashingService.cs",
+              "RelativeToolTip": "TicketRush.Application\\Auth\\Interfaces\\IHashingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T10:21:48.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\Interfaces\\IJwtService.cs",
+              "RelativeDocumentMoniker": "TicketRush.Application\\Auth\\Interfaces\\IJwtService.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\Interfaces\\IJwtService.cs",
+              "RelativeToolTip": "TicketRush.Application\\Auth\\Interfaces\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T11:13:25.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "JwtOptions.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Options\\JwtOptions.cs",
+              "RelativeDocumentMoniker": "TicketRush.Application\\Options\\JwtOptions.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Options\\JwtOptions.cs",
+              "RelativeToolTip": "TicketRush.Application\\Options\\JwtOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T11:40:21.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Infrastructure\\JWT\\JwtService.cs",
+              "RelativeDocumentMoniker": "TicketRush.Infrastructure\\JWT\\JwtService.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Infrastructure\\JWT\\JwtService.cs",
+              "RelativeToolTip": "TicketRush.Infrastructure\\JWT\\JwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T11:12:50.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\abhis\\AppData\\Roaming\\Microsoft\\UserSecrets\\TicketRush-Api-Dev-Secrets\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\Users\\abhis\\AppData\\Roaming\\Microsoft\\UserSecrets\\TicketRush-Api-Dev-Secrets\\secrets.json",
+              "ToolTip": "C:\\Users\\abhis\\AppData\\Roaming\\Microsoft\\UserSecrets\\TicketRush-Api-Dev-Secrets\\secrets.json",
+              "RelativeToolTip": "..\\..\\Users\\abhis\\AppData\\Roaming\\Microsoft\\UserSecrets\\TicketRush-Api-Dev-Secrets\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-25T11:33:48.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "TicketRush.Application\\Auth\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "TicketRush.Application\\Auth\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:11:19.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginResponseDto.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\DTOS\\LoginResponseDto.cs",
+              "RelativeDocumentMoniker": "TicketRush.Application\\Auth\\DTOS\\LoginResponseDto.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\DTOS\\LoginResponseDto.cs",
+              "RelativeToolTip": "TicketRush.Application\\Auth\\DTOS\\LoginResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:18:19.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\User\\Implementions\\UserService.cs",
+              "RelativeDocumentMoniker": "TicketRush.Application\\User\\Implementions\\UserService.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\User\\Implementions\\UserService.cs",
+              "RelativeToolTip": "TicketRush.Application\\User\\Implementions\\UserService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwFQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:30:23.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\User\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "TicketRush.Application\\User\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\User\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "TicketRush.Application\\User\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:25:19.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\User\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "TicketRush.Application\\User\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\User\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "TicketRush.Application\\User\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:32:10.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RegisterResponseDto.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\DTOS\\RegisterResponseDto.cs",
+              "RelativeDocumentMoniker": "TicketRush.Application\\Auth\\DTOS\\RegisterResponseDto.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\DTOS\\RegisterResponseDto.cs",
+              "RelativeToolTip": "TicketRush.Application\\Auth\\DTOS\\RegisterResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:18:19.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\User\\DTOS\\UserDTO.cs",
+              "RelativeDocumentMoniker": "TicketRush.Application\\User\\DTOS\\UserDTO.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\User\\DTOS\\UserDTO.cs",
+              "RelativeToolTip": "TicketRush.Application\\User\\DTOS\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:30:22.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "TicketRush.Domain\\Entity\\User.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Entity\\User.cs",
+              "RelativeToolTip": "TicketRush.Domain\\Entity\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T05:49:27.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CreateUserDTO.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\User\\DTOS\\CreateUserDTO.cs",
+              "RelativeDocumentMoniker": "TicketRush.Application\\User\\DTOS\\CreateUserDTO.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\User\\DTOS\\CreateUserDTO.cs",
+              "RelativeToolTip": "TicketRush.Application\\User\\DTOS\\CreateUserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:30:22.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RegisterRequestDto.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\DTOS\\RegisterRequestDto.cs",
+              "RelativeDocumentMoniker": "TicketRush.Application\\Auth\\DTOS\\RegisterRequestDto.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\DTOS\\RegisterRequestDto.cs",
+              "RelativeToolTip": "TicketRush.Application\\Auth\\DTOS\\RegisterRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:05:14.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TicketRush.Application.csproj",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\TicketRush.Application.csproj",
+              "RelativeDocumentMoniker": "TicketRush.Application\\TicketRush.Application.csproj",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\TicketRush.Application.csproj",
+              "RelativeToolTip": "TicketRush.Application\\TicketRush.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-10-25T10:01:27.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UpdateUserDTO.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\User\\DTOS\\UpdateUserDTO.cs",
+              "RelativeDocumentMoniker": "TicketRush.Application\\User\\DTOS\\UpdateUserDTO.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\User\\DTOS\\UpdateUserDTO.cs",
+              "RelativeToolTip": "TicketRush.Application\\User\\DTOS\\UpdateUserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:30:23.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\abhis\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-1860689899\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\Users\\abhis\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-1860689899\\AuthResponseDto.cs",
+              "ToolTip": "C:\\Users\\abhis\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-1860689899\\AuthResponseDto.cs",
+              "RelativeToolTip": "..\\..\\Users\\abhis\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-1860689899\\AuthResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:18:23.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "RefreshTokenResponseDto.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\DTOS\\RefreshTokenResponseDto.cs",
+              "RelativeDocumentMoniker": "TicketRush.Application\\Auth\\DTOS\\RefreshTokenResponseDto.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\DTOS\\RefreshTokenResponseDto.cs",
+              "RelativeToolTip": "TicketRush.Application\\Auth\\DTOS\\RefreshTokenResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:18:19.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "LoginRequestDto.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\DTOS\\LoginRequestDto.cs",
+              "RelativeDocumentMoniker": "TicketRush.Application\\Auth\\DTOS\\LoginRequestDto.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Application\\Auth\\DTOS\\LoginRequestDto.cs",
+              "RelativeToolTip": "TicketRush.Application\\Auth\\DTOS\\LoginRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T09:05:14.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Seat.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Entity\\Seat.cs",
+              "RelativeDocumentMoniker": "TicketRush.Domain\\Entity\\Seat.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Entity\\Seat.cs",
+              "RelativeToolTip": "TicketRush.Domain\\Entity\\Seat.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAawCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T06:44:04.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "SeatType.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Enums\\SeatType.cs",
+              "RelativeDocumentMoniker": "TicketRush.Domain\\Enums\\SeatType.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Enums\\SeatType.cs",
+              "RelativeToolTip": "TicketRush.Domain\\Enums\\SeatType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T06:48:18.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Show.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Entity\\Show.cs",
+              "RelativeDocumentMoniker": "TicketRush.Domain\\Entity\\Show.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Entity\\Show.cs",
+              "RelativeToolTip": "TicketRush.Domain\\Entity\\Show.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAIA1wCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T05:49:49.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Entity\\Movie.cs",
+              "RelativeDocumentMoniker": "TicketRush.Domain\\Entity\\Movie.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Entity\\Movie.cs",
+              "RelativeToolTip": "TicketRush.Domain\\Entity\\Movie.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAIA1wAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T05:49:42.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Screen.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Entity\\Screen.cs",
+              "RelativeDocumentMoniker": "TicketRush.Domain\\Entity\\Screen.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Entity\\Screen.cs",
+              "RelativeToolTip": "TicketRush.Domain\\Entity\\Screen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAjwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T05:50:55.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "BookingSeat.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Entity\\BookingSeat.cs",
+              "RelativeDocumentMoniker": "TicketRush.Domain\\Entity\\BookingSeat.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Entity\\BookingSeat.cs",
+              "RelativeToolTip": "TicketRush.Domain\\Entity\\BookingSeat.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA+wAwAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T05:51:15.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Entity\\Booking.cs",
+              "RelativeDocumentMoniker": "TicketRush.Domain\\Entity\\Booking.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Entity\\Booking.cs",
+              "RelativeToolTip": "TicketRush.Domain\\Entity\\Booking.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAIA1wBQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T05:50:03.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Theater.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Entity\\Theater.cs",
+              "RelativeDocumentMoniker": "TicketRush.Domain\\Entity\\Theater.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Entity\\Theater.cs",
+              "RelativeToolTip": "TicketRush.Domain\\Entity\\Theater.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwCwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T05:50:42.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "TicketRush.Domain\\Enums\\UserRole.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Enums\\UserRole.cs",
+              "RelativeToolTip": "TicketRush.Domain\\Enums\\UserRole.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T05:57:14.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Entity\\Payment.cs",
+              "RelativeDocumentMoniker": "TicketRush.Domain\\Entity\\Payment.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Entity\\Payment.cs",
+              "RelativeToolTip": "TicketRush.Domain\\Entity\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T05:50:15.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Notifaction.cs",
+              "DocumentMoniker": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Entity\\Notifaction.cs",
+              "RelativeDocumentMoniker": "TicketRush.Domain\\Entity\\Notifaction.cs",
+              "ToolTip": "C:\\CSharpPrograms\\TicketRush\\TicketRush.Domain\\Entity\\Notifaction.cs",
+              "RelativeToolTip": "TicketRush.Domain\\Entity\\Notifaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T05:51:24.089Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

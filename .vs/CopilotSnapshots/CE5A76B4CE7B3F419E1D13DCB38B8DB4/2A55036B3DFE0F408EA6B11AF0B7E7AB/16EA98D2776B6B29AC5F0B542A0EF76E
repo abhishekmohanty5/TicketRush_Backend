@@ -1,0 +1,82 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using TicketRush.Domain.Enums;
+
+namespace TicketRush.Domain.Entity
+{
+    public class User
+    {
+        public int Id { get; private set; }
+        public string Name { get; private set; } = string.Empty;
+        public string Email { get; private set; } = string.Empty;
+        public string Password { get; private set; } = string.Empty;
+        public UserRole Role { get; private set; } = UserRole.Customer;
+        public DateTime CreatedAt { get; private set; }
+        public Boolean IsActive { get; private set; }
+
+
+        private User() { }
+
+        public User(string name,string email, string password)
+        {
+            if (string.IsNullOrWhiteSpace(name)) throw new ArgumentException("Name is required.", nameof(name));
+            if (string.IsNullOrWhiteSpace(email)) throw new ArgumentException("Email is required.", nameof(email));
+            if (string.IsNullOrWhiteSpace(password)) throw new ArgumentException("Password is required.", nameof(password));
+
+            Name = name;
+            Email = email;
+            Password = password;
+            Role = UserRole.Customer;
+            CreatedAt = DateTime.UtcNow;
+            IsActive = true;
+        }
+
+        public void SetRole(UserRole role)
+        {
+            //validation later
+            Role = role;
+        }
+        public void Deactivate()
+        {
+            if(!IsActive)
+            {
+                throw new InvalidOperationException("User is already deactivated.");
+            }
+            IsActive = false;
+        }
+
+        public void SetId(int id)
+        {
+            if (Id != 0)
+            {
+                throw new InvalidOperationException("Id is already set.");
+            }
+            if(id <= 0)
+            {
+                throw new ArgumentException("Id must be greater than zero.");
+            }
+
+            Id = id;
+        }
+
+        public void UpdateDetails(string ? name, string ? email)
+        {
+           if(string.IsNullOrWhiteSpace(name))
+            {
+                throw new ArgumentException("Name cannot be null or whitespace.");
+            }
+            if(string.IsNullOrWhiteSpace(email))
+            {
+                throw new ArgumentException("Email cannot be null or whitespace.");
+            }
+            Name = name;
+            Email = email;
+            
+        }
+
+       
+    }
+}

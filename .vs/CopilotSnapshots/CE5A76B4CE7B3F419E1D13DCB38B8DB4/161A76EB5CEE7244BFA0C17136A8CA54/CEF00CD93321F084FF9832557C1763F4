@@ -1,0 +1,13 @@
+﻿using TicketRush.Application.Auth.DTOS;
+using TicketRush.Application.Common.DTOS;
+
+namespace TicketRush.Application.Auth.Interfaces
+{
+    public interface IAuthService
+    {
+        Task<GlobalResponseDto<RegisterResponseDto>> RegisterAsync(RegisterRequestDto request, CancellationToken cancellationToken = default);
+        Task<GlobalResponseDto<LoginResponseDto>> LoginAsync(LoginRequestDto request, CancellationToken cancellationToken = default);
+        Task<GlobalResponseDto<RefreshTokenResponseDto>> RefreshTokenAsync(RefreshTokenRequestDto request, CancellationToken cancellationToken = default);
+        Task<GlobalResponseDto<bool>> LogoutAsync(LogoutRequestDto request, CancellationToken cancellationToken = default);
+    }
+}

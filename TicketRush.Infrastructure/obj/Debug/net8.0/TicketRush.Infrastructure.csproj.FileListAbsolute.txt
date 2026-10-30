@@ -1,0 +1,17 @@
+C:\CSharpPrograms\TicketRush\TicketRush.Infrastructure\bin\Debug\net8.0\TicketRush.Infrastructure.deps.json
+C:\CSharpPrograms\TicketRush\TicketRush.Infrastructure\bin\Debug\net8.0\TicketRush.Infrastructure.dll
+C:\CSharpPrograms\TicketRush\TicketRush.Infrastructure\bin\Debug\net8.0\TicketRush.Infrastructure.pdb
+C:\CSharpPrograms\TicketRush\TicketRush.Infrastructure\obj\Debug\net8.0\TicketRush.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharpPrograms\TicketRush\TicketRush.Infrastructure\obj\Debug\net8.0\TicketRush.Infrastructure.AssemblyInfoInputs.cache
+C:\CSharpPrograms\TicketRush\TicketRush.Infrastructure\obj\Debug\net8.0\TicketRush.Infrastructure.AssemblyInfo.cs
+C:\CSharpPrograms\TicketRush\TicketRush.Infrastructure\obj\Debug\net8.0\TicketRush.Infrastructure.csproj.CoreCompileInputs.cache
+C:\CSharpPrograms\TicketRush\TicketRush.Infrastructure\obj\Debug\net8.0\TicketRush.Infrastructure.dll
+C:\CSharpPrograms\TicketRush\TicketRush.Infrastructure\obj\Debug\net8.0\refint\TicketRush.Infrastructure.dll
+C:\CSharpPrograms\TicketRush\TicketRush.Infrastructure\obj\Debug\net8.0\TicketRush.Infrastructure.pdb
+C:\CSharpPrograms\TicketRush\TicketRush.Infrastructure\obj\Debug\net8.0\ref\TicketRush.Infrastructure.dll
+C:\CSharpPrograms\TicketRush\TicketRush.Infrastructure\obj\Debug\net8.0\TicketRu.4B434C76.Up2Date
+C:\CSharpPrograms\TicketRush\TicketRush.Infrastructure\obj\Debug\net8.0\TicketRush.Infrastructure.csproj.AssemblyReference.cache
+C:\CSharpPrograms\TicketRush\TicketRush.Infrastructure\bin\Debug\net8.0\TicketRush.Application.dll
+C:\CSharpPrograms\TicketRush\TicketRush.Infrastructure\bin\Debug\net8.0\TicketRush.Domain.dll
+C:\CSharpPrograms\TicketRush\TicketRush.Infrastructure\bin\Debug\net8.0\TicketRush.Application.pdb
+C:\CSharpPrograms\TicketRush\TicketRush.Infrastructure\bin\Debug\net8.0\TicketRush.Domain.pdb

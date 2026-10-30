@@ -1,0 +1,100 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.Threading.Tasks;
+using TicketRush.Application.Auth.Interfaces;
+using TicketRush.Application.User.DTOS;
+using TicketRush.Application.User.Interfaces;
+using EntityUser = TicketRush.Domain.Entity.User;
+
+namespace TicketRush.Application.User.Implementions
+{
+    public class UserService : IUserService
+    {
+        private readonly IUserRepository _userRepository;
+        private readonly IHashingService _hashingService;
+
+        public UserService(IUserRepository userRepository, IHashingService hashingService)
+        {
+            _userRepository = userRepository;
+            _hashingService = hashingService;
+        }
+
+        public async Task<UserDTO> CreateUserAsync(CreateUserDTO requestDTO)
+        {
+           
+          if( await _userRepository.UserExistByEmailasync(requestDTO.Email))
+          {
+              throw new InvalidOperationException("User already exists");
+          }
+
+            EntityUser user = new EntityUser(requestDTO.Name, requestDTO.Email, requestDTO.Password);
+
+            EntityUser savedUser = await _userRepository.SaveUser(user);
+
+            return MapToUserDTO(savedUser);
+
+        }
+
+        public async Task<bool> DeleteUserAsync(int userId)
+        {
+           await _userRepository.DeleteUserAsync(userId);
+           return true;
+        }
+
+        public async Task<List<UserDTO>> GetAllUsersAsync()
+        {
+          var users = await _userRepository.GetAllUsersAsync();
+          var userDTOs = users.Select(user => MapToUserDTO(user)).ToList();
+          return userDTOs;  
+        }
+
+        public async Task<UserDTO> GetUserByEmailAsync(string email)
+        {
+            var user = await _userRepository.GetUserByEmailAsync(email);
+            return MapToUserDTO(user);
+        }
+
+        public async Task<UserDTO> GetUserByIdAsync(int userId)
+        {
+            var user = await _userRepository.GetUserByIdAsync(userId);
+            return MapToUserDTO(user);
+        }
+
+        public async Task<UserDTO> UpdateUserAsync(int userId, UpdateUserDTO requestDto)
+        {
+            var user = await _userRepository.GetUserByIdAsync(userId);
+            user.UpdateDetails(requestDto.Name, requestDto.Email);
+
+            var updatedUser = await _userRepository.SaveUser(user);
+            return MapToUserDTO(updatedUser);
+        }
+
+        public async Task<UserDTO> AuthenticateUserAsync(string email, string password)
+        {
+            var user = await _userRepository.GetUserByEmailAsync(email);
+
+            if(!_hashingService.VerifyPassword(password, user.Password))
+            {
+                throw new UnauthorizedAccessException("Invalid credentials.");
+            }   
+            return MapToUserDTO(user);
+        }   
+
+        private UserDTO MapToUserDTO(EntityUser user)
+        {
+            return new UserDTO
+            {
+                Id = user.Id,
+                Name = user.Name,
+                Email = user.Email,
+                Role = user.Role.ToString(),
+                CreatedAt = user.CreatedAt,
+                IsActive = user.IsActive
+            };
+        }   
+    }
+}

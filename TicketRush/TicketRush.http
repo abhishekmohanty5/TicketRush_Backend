@@ -1,0 +1,6 @@
+@TicketRush_HostAddress = http://localhost:5183
+
+GET {{TicketRush_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

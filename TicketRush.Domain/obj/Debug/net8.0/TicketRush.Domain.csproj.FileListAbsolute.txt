@@ -1,0 +1,11 @@
+C:\CSharpPrograms\TicketRush\TicketRush.Domain\obj\Debug\net8.0\TicketRush.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\CSharpPrograms\TicketRush\TicketRush.Domain\obj\Debug\net8.0\TicketRush.Domain.AssemblyInfoInputs.cache
+C:\CSharpPrograms\TicketRush\TicketRush.Domain\obj\Debug\net8.0\TicketRush.Domain.AssemblyInfo.cs
+C:\CSharpPrograms\TicketRush\TicketRush.Domain\obj\Debug\net8.0\TicketRush.Domain.csproj.CoreCompileInputs.cache
+C:\CSharpPrograms\TicketRush\TicketRush.Domain\bin\Debug\net8.0\TicketRush.Domain.deps.json
+C:\CSharpPrograms\TicketRush\TicketRush.Domain\bin\Debug\net8.0\TicketRush.Domain.dll
+C:\CSharpPrograms\TicketRush\TicketRush.Domain\bin\Debug\net8.0\TicketRush.Domain.pdb
+C:\CSharpPrograms\TicketRush\TicketRush.Domain\obj\Debug\net8.0\TicketRush.Domain.dll
+C:\CSharpPrograms\TicketRush\TicketRush.Domain\obj\Debug\net8.0\refint\TicketRush.Domain.dll
+C:\CSharpPrograms\TicketRush\TicketRush.Domain\obj\Debug\net8.0\TicketRush.Domain.pdb
+C:\CSharpPrograms\TicketRush\TicketRush.Domain\obj\Debug\net8.0\ref\TicketRush.Domain.dll

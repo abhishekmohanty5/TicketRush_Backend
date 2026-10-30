@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using TicketRush.Application.Auth.DTOS;
+
+namespace TicketRush.Application.Auth.Interfaces
+{
+    public interface IAuthService
+    {
+        Task<RegistrationResponseDTO> Registeruser(RegistrationRequestDTO request);
+
+    }
+}

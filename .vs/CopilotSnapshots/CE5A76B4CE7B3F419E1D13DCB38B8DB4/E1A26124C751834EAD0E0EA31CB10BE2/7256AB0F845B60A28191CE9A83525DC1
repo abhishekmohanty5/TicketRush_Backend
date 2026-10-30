@@ -1,0 +1,88 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
+using System.Threading.Tasks;
+using TicketRush.Application.Auth.Interfaces;
+using TicketRush.Domain.Entity;
+
+namespace TicketRush.Application.Auth.Implementions
+{
+    public class RefreshTokenService : IRefreshTokenService
+    {
+        private readonly IRefreshTokenRepository _refreshTokenRepository;
+
+        public RefreshTokenService(IRefreshTokenRepository refreshTokenRepository)
+        {
+            _refreshTokenRepository = refreshTokenRepository;
+        }
+
+        public string GenerateRefreshToken(int userId)
+        {
+            string token = GenerateRandomToken();
+            RefreshToken refreshToken = new RefreshToken(userId,token,DateTime.UtcNow.AddDays(7));
+
+            _refreshTokenRepository.AddRefreshTokenAsync(refreshToken);
+
+            return token;
+
+        }
+
+        public async Task<bool> RevokeRefreshToken(string refreshToken)
+        {
+            RefreshToken tokenEntity = await _refreshTokenRepository.GetRefreshTokenAsync(refreshToken);
+            tokenEntity.Revoke();
+            await _refreshTokenRepository.RevokeRefreshTokenAsync(tokenEntity);
+            return true;
+
+        }
+
+        public Task<bool> RevokeRefreshToken(RefreshToken refreshToken)
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task<string> RotateRefreshToken(RefreshToken refreshToken)
+        {
+            // Revoke the current refresh token
+            refreshToken.Revoke();
+            await _refreshTokenRepository.RevokeRefreshTokenAsync(refreshToken); //db saved
+
+            // Generate a new refresh token
+            return GenerateRefreshToken(refreshToken.UserId);
+
+        }
+
+
+
+        public async Task<RefreshToken> ValidateRefreshToken(string refreshToken)
+        {
+            RefreshToken tokenEntity = await _refreshTokenRepository.GetRefreshTokenAsync(refreshToken);
+
+            if(!tokenEntity.IsActive)
+            {
+                 //revoke all token of user make them logout   
+            }
+
+            return tokenEntity;
+
+        }
+        
+        private string GenerateRandomToken()
+        {
+            var randomBytes = new byte[64];
+
+            using var rng = RandomNumberGenerator.Create();
+            rng.GetBytes(randomBytes);
+
+            return Convert.ToBase64String(randomBytes);
+
+        }
+
+        Task<string> IRefreshTokenService.GenerateRefreshToken(int userId)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
